@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class Calculadora : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //Variables 
+
+
+
+    //Metodos 
+
     void Start()
     {
         
