@@ -5,15 +5,25 @@ using TMPro;
 
 public class Calculadora : MonoBehaviour
 {
+    //Variables 
     public TMP_InputField primerNumero;
     public TMP_InputField SegundoNumero;
-    public TMP_Text resultado;
+    public TMP_Text resultadoText;
 
-    //Variables 
-
-
+    public int resultado;
 
     //Metodos 
+
+    public void suma()
+    {
+        int numero1 = int.Parse(primerNumero.text);
+        int numero2 = int.Parse(SegundoNumero.text);
+
+       resultado = numero1 + numero2;
+
+       resultadoText.text = resultado.ToString();
+
+    }
 
  
 }
