@@ -9,6 +9,9 @@ public class FlavorController : MonoBehaviour
 {
     private TMP_Dropdown ColorOptions;
     public Image Pastel;
+    public Sprite[] flavorBase;
+
+
 
     private void Start()
     {
