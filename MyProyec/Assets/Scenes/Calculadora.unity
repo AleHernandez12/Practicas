@@ -740,7 +740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   primerNumero: {fileID: 24955323}
   SegundoNumero: {fileID: 1186197599}
-  resultadoText: {fileID: 0}
+  resultadoText: {fileID: 1617734340}
   resultado: 0
 --- !u!4 &745444627
 Transform:
@@ -2085,7 +2085,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1900817410}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 745444626}
+        m_TargetAssemblyTypeName: Calculadora, Assembly-CSharp
+        m_MethodName: Resta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1900817410
 MonoBehaviour:
   m_ObjectHideFlags: 0

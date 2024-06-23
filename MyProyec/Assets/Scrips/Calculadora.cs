@@ -25,5 +25,17 @@ public class Calculadora : MonoBehaviour
 
     }
 
- 
+
+    public void Resta()
+    {
+        int numero1 = int.Parse(primerNumero.text);
+        int numero2 = int.Parse(SegundoNumero.text);
+
+        resultado = numero1 - numero2;
+
+        resultadoText.text = resultado.ToString();
+
+    }
+
+
 }
