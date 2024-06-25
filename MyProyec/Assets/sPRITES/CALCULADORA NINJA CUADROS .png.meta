@@ -1,0 +1,294 @@
+fileFormatVersion: 2
+guid: c9cc85f6534f6554f982952ba12102eb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CALCULADORA NINJA CUADROS _0
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 2412
+        width: 2214
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7360772e5243444a2b30c05d39f1b6
+      internalID: -2004211545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CALCULADORA NINJA CUADROS _1
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1722
+        width: 2200
+        height: 570
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f91757ea2966247a7e5975e1d0b3cb
+      internalID: 1169097265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CALCULADORA NINJA CUADROS _2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 781
+        width: 604
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529a32b1f98362249afb698e26b09763
+      internalID: 1345149409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CALCULADORA NINJA CUADROS _3
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 796
+        width: 590
+        height: 560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c60e01d7b7966d4581757dd277a1e77
+      internalID: -2020033991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CALCULADORA NINJA CUADROS _4
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 0
+        width: 595
+        height: 571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2710dc1060be4c74387ed77feac926f0
+      internalID: -1550832003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CALCULADORA NINJA CUADROS _5
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 21
+        width: 600
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ea61c16d5caee4bab162f0e6cc41ad
+      internalID: -1664108626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -1197.4434, y: -927.4366}
+      - {x: -1197.4434, y: -1494}
+      - {x: -595.79395, y: -1494}
+      - {x: -595.79395, y: -927.4366}
+      - {x: -598.7217, y: -924.5086}
+      - {x: -1194.5156, y: -924.5086}
+    - - {x: -338.15332, y: -928.9005}
+      - {x: -338.15332, y: -1494}
+      - {x: 263.4961, y: -1494}
+      - {x: 263.4961, y: -928.9005}
+      - {x: 260.56836, y: -925.9726}
+      - {x: -335.2256, y: -925.9726}
+    - - {x: -1499, y: -132.49094}
+      - {x: -1499, y: -704.91034}
+      - {x: -904.6699, y: -704.91034}
+      - {x: -901.7422, y: -701.98236}
+      - {x: -901.7422, y: -135.41891}
+      - {x: -904.6699, y: -132.49094}
+    - - {x: -39.524414, y: -132.49094}
+      - {x: -42.45215, y: -135.41891}
+      - {x: -42.45215, y: -701.98236}
+      - {x: -39.524414, y: -704.91034}
+      - {x: 556.26953, y: -704.91034}
+      - {x: 559.19727, y: -701.98236}
+      - {x: 559.19727, y: -135.41891}
+      - {x: 556.26953, y: -132.49094}
+    - - {x: -726.0781, y: 800.0696}
+      - {x: -726.0781, y: 227.65018}
+      - {x: 1494.6084, y: 227.65018}
+      - {x: 1494.6084, y: 800.0696}
+    - - {x: -717.2949, y: 1494}
+      - {x: -717.2949, y: 928.9005}
+      - {x: -714.3672, y: 925.9726}
+      - {x: 1499, y: 925.9726}
+      - {x: 1499, y: 1494}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CALCULADORA NINJA CUADROS _0: -2004211545
+      CALCULADORA NINJA CUADROS _1: 1169097265
+      CALCULADORA NINJA CUADROS _2: 1345149409
+      CALCULADORA NINJA CUADROS _3: -2020033991
+      CALCULADORA NINJA CUADROS _4: -1550832003
+      CALCULADORA NINJA CUADROS _5: -1664108626
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
