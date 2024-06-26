@@ -6261,11 +6261,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299437d8f65dbdd4aa091c28461cd2a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelAlertas: {fileID: 0}
-  textoAlertas: []
+  panelAlertas: {fileID: 197748895}
+  textoAlertas:
+  - Usuario Validado Correctamente
+  - 'Usuario No Existente '
   usuarios: []
-  nombreUsuario: {fileID: 0}
-  alertasDisplay: {fileID: 0}
+  nombreUsuario: {fileID: 1615264923}
+  alertasDisplay: {fileID: 1472901735}
 --- !u!1 &1808442038
 GameObject:
   m_ObjectHideFlags: 0
