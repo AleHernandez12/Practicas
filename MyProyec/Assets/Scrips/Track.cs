@@ -14,7 +14,7 @@ public class Track : MonoBehaviour
     public Button thisbutton;
     public AudioSource audioSource;
     public int idTrack;
-  
+    
 
     void Start()
     {
@@ -34,5 +34,6 @@ public class Track : MonoBehaviour
     {
         audioSource.clip = clip;
         audioSource.Play();
+        ReproductorAudio.instance.currentTrack = idTrack;
     }
 }
