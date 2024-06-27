@@ -14,6 +14,7 @@ public class Arreglos : MonoBehaviour
     public List<string> usuarios =new List<string>();
 
     public TMP_InputField nombreUsuario;
+    public TMP_InputField nombreNuevoUsuario;
     public TMP_Text alertasDisplay;
     
     void Start()
@@ -37,5 +38,20 @@ public class Arreglos : MonoBehaviour
         }
     }
 
+
+    public void CrearUsuario()
+    {
+        if (usuarios.Contains(nombreNuevoUsuario.text))
+        {
+            panelAlertas.SetActive(true);
+            alertasDisplay.text = textoAlertas[2];
+        }
+        else
+        {
+            usuarios.Add (nombreNuevoUsuario.text);
+            panelAlertas.SetActive(true);
+            alertasDisplay.text = textoAlertas[3];
+        }
+    }
     
 }

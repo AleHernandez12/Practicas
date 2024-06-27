@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -118}
-  m_SizeDelta: {x: 300, y: 70}
+  m_AnchoredPosition: {x: 27.242983, y: -177.05879}
+  m_SizeDelta: {x: 354.49, y: 103.1656}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &68817588
 MonoBehaviour:
@@ -337,7 +337,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 79865420}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1735448712}
+        m_TargetAssemblyTypeName: Arreglos, Assembly-CSharp
+        m_MethodName: CrearUsuario
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &79865420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1261,8 +1273,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -61, y: 329}
-  m_SizeDelta: {x: -610, y: -1390}
+  m_AnchoredPosition: {x: 0.8261719, y: 322.75403}
+  m_SizeDelta: {x: -343.1709, y: -1364.4921}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &384917798
 MonoBehaviour:
@@ -1311,14 +1323,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 67.55
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1347,7 +1359,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -134.76321, w: 0}
+  m_margin: {x: 0, y: 0, z: -0.26403812, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4653,8 +4665,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 250.00006}
-  m_SizeDelta: {x: -510, y: -1370}
+  m_AnchoredPosition: {x: 6.509094, y: 209.86542}
+  m_SizeDelta: {x: -227.99, y: -1315.7664}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1273463112
 MonoBehaviour:
@@ -5521,8 +5533,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 437}
-  m_SizeDelta: {x: -510, y: -1370}
+  m_AnchoredPosition: {x: 6.5080566, y: 441.33875}
+  m_SizeDelta: {x: -227.9856, y: -1313.5972}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1615264923
 MonoBehaviour:
@@ -5983,8 +5995,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -61, y: 543}
-  m_SizeDelta: {x: -610, y: -1390}
+  m_AnchoredPosition: {x: 14.926994, y: 563.60864}
+  m_SizeDelta: {x: -271.5826, y: -1361.7983}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1673013536
 MonoBehaviour:
@@ -6033,14 +6045,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 61.5
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -6069,7 +6081,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -134.76321, w: 0}
+  m_margin: {x: 0, y: 0, z: 1.9053955, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -6265,8 +6277,11 @@ MonoBehaviour:
   textoAlertas:
   - Usuario Validado Correctamente
   - 'Usuario No Existente '
+  - 'Usuario ya Existente '
+  - 'Usuario Creado  Correctamente  '
   usuarios: []
   nombreUsuario: {fileID: 1615264923}
+  nombreNuevoUsuario: {fileID: 588780320}
   alertasDisplay: {fileID: 1472901735}
 --- !u!1 &1808442038
 GameObject:
@@ -7076,8 +7091,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 300, y: 70}
+  m_AnchoredPosition: {x: 27.2432, y: -13.0294}
+  m_SizeDelta: {x: 354.4865, y: 96.0588}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2091016437
 MonoBehaviour:
