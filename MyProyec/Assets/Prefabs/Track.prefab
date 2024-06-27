@@ -150,6 +150,7 @@ MonoBehaviour:
   clipName: {fileID: 4385990475422374820}
   thisbutton: {fileID: 0}
   audioSource: {fileID: 0}
+  idTrack: 7
 --- !u!1 &8222089343922308847
 GameObject:
   m_ObjectHideFlags: 0
