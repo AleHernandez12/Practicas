@@ -4,35 +4,56 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-
-public class FlavorController : MonoBehaviour
+public class ChangeImage : MonoBehaviour
 {
-    private TMP_Dropdown ColorOptions;
+    // Referencia al TMP_Dropdown
+    public TMP_Dropdown ColorOptions;
+
+    // Referencia al componente Image
     public Image Pastel;
-    public Sprite[] flavorBase;
 
-
+    // Referencias a los sprites
+    public Sprite graySprite;
+    public Sprite yellowSprite;
+    public Sprite magentaSprite;
 
     private void Start()
     {
-        ColorOptions = GetComponent<TMP_Dropdown>();
-        Pastel = GameObject.Find("Pastel").GetComponent<Image>();
+        // Obtener el componente TMP_Dropdown si no se ha asignado
+        if (ColorOptions == null)
+        {
+            ColorOptions = GetComponent<TMP_Dropdown>();
+        }
+
+        // Obtener el componente Image si no se ha asignado
+        if (Pastel == null)
+        {
+            Pastel = GameObject.Find("Pastel").GetComponent<Image>();
+        }
+
+        // Asignar el método al evento onValueChanged
+        ColorOptions.onValueChanged.AddListener(delegate { ChangeFlavor(); });
     }
 
     public void ChangeFlavor()
     {
+        // Cambiar el sprite del componente Image basado en el valor del dropdown
         switch (ColorOptions.value)
         {
             case 0:
-            Pastel.color = Color.gray;
-            break;
+                Pastel.sprite = graySprite;
+                break;
 
             case 1:
-                Pastel.color = Color.yellow;
+                Pastel.sprite = yellowSprite;
                 break;
 
             case 2:
-                Pastel.color = Color.magenta;
+                Pastel.sprite = magentaSprite;
+                break;
+
+            default:
+                // Opcional: manejar casos adicionales o valores por defecto
                 break;
         }
     }
